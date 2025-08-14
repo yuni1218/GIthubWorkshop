@@ -13,7 +13,7 @@ SELECT
     f.a_r,
     f.a_i,
     f.a_z,
-    f.a_y,
+    f.a_y
   
 FROM pdr3_dud_rev.forced AS f
 LEFT JOIN pdr3_dud_rev.forced2 AS f2
