@@ -30,7 +30,6 @@ LEFT JOIN pdr3_dud_rev.forced2 AS f2
 LEFT JOIN pdr3_dud_rev.patch_qa AS f3
   ON f.patch = f3.patch
 LEFT JOIN pdr3_dud_rev.stellar_sequence_offsets AS f4
-  ON f3.patch = f4.patch
 WHERE
     f.isprimary = TRUE
     AND (
